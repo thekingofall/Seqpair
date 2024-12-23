@@ -1,0 +1,62 @@
+NAseq) [maolp@localhost 20240709-陈曦-CQT2024052321-F002-纯测�
+��-原始数据]$ /home/maolp/mao/Project/20211110_xcc_TCR/2.cleandata/mixcr-
+3.0.13/mixcr   analyze amplicon -s  hsa --starting-material RNA --5-end no-v-primers --3-end c-primers --adapters adapters-present Alltest6A_R2.fastq.gz  MIXtestall
+NOTE: report file is not specified, using MIXtestall.report to write report.
+Alignment: 0.1%
+Alignment: 10.7%  ETA: 00:02:06
+Alignment: 21.2%  ETA: 00:00:44
+Alignment: 31.5%  ETA: 00:00:39
+Alignment: 42.5%  ETA: 00:00:36
+Alignment: 52.9%  ETA: 00:00:27
+Alignment: 63.3%  ETA: 00:00:21
+Alignment: 73.6%  ETA: 00:00:15
+Alignment: 84.5%  ETA: 00:00:08
+Alignment: 95.3%  ETA: 00:00:02
+============= Report ==============
+Analysis time: 1.12m
+Total sequencing reads: 6351300
+Successfully aligned reads: 2 (0%)
+Alignment failed, no hits (not TCR/IG?): 6341906 (99.85%)
+Alignment failed because of absence of J hits: 9392 (0.15%)
+Overlapped: 0 (0%)
+Overlapped and aligned: 0 (0%)
+Alignment-aided overlaps: 0 (NaN%)
+Overlapped and not aligned: 0 (0%)
+TRA chains: 1 (50%)
+TRB chains: 1 (50%)
+Realigned with forced non-floating bound: 0 (0%)
+Realigned with forced non-floating right bound in left read: 0 (0%)
+Realigned with forced non-floating left bound in right read: 0 (0%)
+Initialization: progress unknown
+Writing clones: 0%
+============= Report ==============
+Analysis time: 96.00ms
+Final clonotype count: 1
+Average number of reads per clonotype: 1
+Reads used in clonotypes, percent of total: 1 (0%)
+Reads used in clonotypes before clustering, percent of total: 1 (0%)
+Number of reads used as a core, percent of used: 1 (100%)
+Mapped low quality reads, percent of used: 0 (0%)
+Reads clustered in PCR error correction, percent of used: 0 (0%)
+Reads pre-clustered due to the similar VJC-lists, percent of used: 0 (0%)
+Reads dropped due to the lack of a clone sequence, percent of total: 0 (0%)
+Reads dropped due to low quality, percent of total: 0 (0%)
+Reads dropped due to failed mapping, percent of total: 1 (0%)
+Reads dropped with low quality clones, percent of total: 0 (0%)
+Clonotypes eliminated by PCR error correction: 0
+Clonotypes dropped as low quality: 0
+Clonotypes pre-clustered due to the similar VJC-lists: 0
+TRA chains: 1 (100%)
+Exporting clones: 0%
+Exporting clones: 0%
+Filtered 0 of 1 clones (100%).
+Filtered 0.0 of 1.0 reads (100%).
+Filtered 0 of 1 clones (100%).
+Filtered 0.0 of 1.0 reads (100%).
+Exporting clones: 0%
+Filtered 0 of 1 clones (100%).
+Filtered 0.0 of 1.0 reads (100%).
+Filtered 0 of 1 clones (100%).
+Filtered 0.0 of 1.0 reads (100%).
+Filtered 0 of 1 clones (100%).
+Filtered 0.0 of 1.0 reads (100%).
